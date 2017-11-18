@@ -12,7 +12,7 @@ if  [ -e "$1" ] && [ -e "$1" ]; then
             echo $line, $result
         done
 else
-  	echo "usage ./url_checker.sh fine_full_path"
+  	echo "usage ./url_checker.sh ファイルパス"
   	echo "引数にファイル名を指定してください。"
         echo "ファイルなし"
 
