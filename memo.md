@@ -19,3 +19,5 @@
 # Athena実行時 403アクセス禁止エラーが出る場合は
 - Athena権限不足
 -- https://aws.amazon.com/jp/premiumsupport/knowledge-center/access-denied-athena/
+- 何に問題があるかわからない場合
+-- https://aws.amazon.com/jp/premiumsupport/knowledge-center/s3-troubleshoot-403/
