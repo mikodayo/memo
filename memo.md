@@ -15,3 +15,7 @@
 -- https://dev.classmethod.jp/cloud/aws/amazon-athena-sql-elb-log-reinvent/
 - Amazon Athenaではじめるログ分析入門
 -- https://qiita.com/miyasakura_/items/174dc73f706e8951dbdd
+
+# Athena実行時 403アクセス禁止エラーが出る場合は
+- Athena権限不足
+-- https://aws.amazon.com/jp/premiumsupport/knowledge-center/access-denied-athena/
