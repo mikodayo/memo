@@ -24,3 +24,5 @@
 - Elastic IPを開放すると同時に申請解除も必要。
 -- https://portal.aws.amazon.com/gp/aws/html-forms-controller/contactus/ec2-email-limit-rdns-request 
 
+# スパムチェッカー
+- https://www.mail-tester.com/
