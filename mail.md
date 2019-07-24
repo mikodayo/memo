@@ -9,3 +9,18 @@
 # メールアドレスの死活チェック
 - python
 -- https://github.com/syrusakbary/validate_email
+- ruby
+-- https://qiita.com/yutackall/items/ce9285ecdf2f03db0404
+-- これはsmtpでつないだときの結果チェックがないので(DNSのチェックだと例外が上がるが、smtpでのアドレスチェックの場合
+-- 処理で捕捉しようとしている例外は上がらない。resultcode 250以外がきた場合の処理を追加してあげる必要あり
+- ruby on rails
+-- https://github.com/kamilc/email_verifier
+
+# メールアドレス死活チェックをするまでの道のり
+- DNSにMXレコード追加し、メール送信できるようにしとく。
+-- SESを使った
+- AWSの場合はIPに逆引き設定の申請を出しておく。
+-- https://www.slideshare.net/AmazonWebServicesJapan/aws-ec2-e-rdns#9 
+- Elastic IPを開放すると同時に申請解除も必要。
+-- https://portal.aws.amazon.com/gp/aws/html-forms-controller/contactus/ec2-email-limit-rdns-request 
+
