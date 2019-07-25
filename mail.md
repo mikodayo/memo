@@ -1,3 +1,7 @@
+# spam判定基準、blacklist mailscore greylisting(new)
+- https://www.eis.co.jp/anti_spam_greylisting/
+
+
 # エンゲージメントベースの宛先リスト管理（Sunset Policy）
 - 以下から引用抜粋
 -- https://sendgrid.kke.co.jp/docs/Tutorials/D_Improve_Deliverability/cleaning_recipient_list.html
