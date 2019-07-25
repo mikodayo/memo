@@ -1,4 +1,5 @@
 # spam判定基準、blacklist mailscore greylisting(new)
+- http://projects.puremagic.com/greylisting/index.html
 - https://www.eis.co.jp/anti_spam_greylisting/
 
 
